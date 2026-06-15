@@ -1,0 +1,25 @@
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+app/build
+
+# Frontend dependencies/build output
+frontend/node_modules
+frontend/dist
+
+# Runtime logs and crash dumps
+*.log
+*.hprof
+
+/.claude
+/.idea
+/app/bin
+# Environment variables
+.env
+# IDEA code analysis
+qodana.yaml
+
+app/src/main/resources/application-dev.yml
+/docs
